@@ -1,0 +1,44 @@
+{
+  "info": {
+    "_postman_id": "2b3bbb88-3e22-4341-988c-45ce46ba1648",
+    "name": "plan-combination-finder-postman",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "25784474"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8080/plan",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "features_needed",
+              "value": "email,admin,voice",
+              "type": "text"
+            },
+            {
+              "key": "file",
+              "type": "file",
+              "src": "Example1.txt"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8080/plan",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "plan"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

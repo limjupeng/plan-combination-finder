@@ -1,0 +1,9 @@
+PLAN7f,12,email,database,admin,voice
+PLAN1,100,voice,email
+PLAN2,150,email,database,admin
+PLAN3,125,voice,admin
+PLAN4,135,database,admin
+PLAN13,100,voice,email,calls
+PLAN26,150,email,database,admin
+PLAN3a,1265,voice,admin
+PLAN4f,125,database,admin
